@@ -1,0 +1,31 @@
+# NetBeans specific
+nbproject/private/
+nbproject/project.properties
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+
+# Compiled files
+*.class
+*.war
+*.ear
+
+# Ignore built JARs but keep library dependencies
+*.jar
+!Final_Project/lib/*.jar
+
+# IDE files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Build directories
+target/
+out/
+/Final_Project/test_exports
+/Final_Project/exports
+/Final_Project/nbproject/private
